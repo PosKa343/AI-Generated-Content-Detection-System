@@ -1,0 +1,24 @@
+ITERATION ANALYSIS - QUANTITATIVE RESULTS
+======================================================================
+
+1. RANDOM SEED SENSITIVITY
+   Tested 10 different seeds
+   Mean accuracy: 0.9803
+   Std deviation: 0.0107
+   Range: 3.1 percentage points
+   Cross-validation: 0.9763 +/- 0.0133
+
+2. FEATURE IMPORTANCE
+   Top 5 features:
+     word_entropy: 2.4714
+     dale_chall_readability: 1.2584
+     period_count: 1.1855
+     avg_sentence_length: 0.9054
+     colon_count: 0.7215
+
+3. DATA COLLECTION SUCCESS RATES
+   NewsAPI (Iter 1): 0.0%
+   Gemini Default (Iter 2): 18.6%
+   Wikipedia Strict (Iter 3): 24.0%
+   Gemini + Safety (Final): 95.2%
+   Wikipedia Flexible (Final): 90.3%
